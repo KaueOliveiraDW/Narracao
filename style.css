@@ -145,7 +145,7 @@ h2 { font-size: clamp(42px, 5.05vw, 75px); line-height: .98; }
 .quote-form input, .quote-form textarea, .quote-form select { display: block; width: 100%; margin-top: 5px; padding: 11px 10px; border: 1px solid #4b454d; border-radius: 4px; background: #201d22; color: var(--text); font-size: 13px; font-weight: 500; }
 .quote-form input::placeholder, .quote-form textarea::placeholder { color: #ada6af; }
 .quote-form textarea { resize: vertical; }
-.quote-form > .button { justify-self: start; }
+.quote-form > .button { justify-self: center; }
 
 .site-footer { background: #0c0c0e; }
 .footer-inner { min-height: 94px; display: flex; justify-content: space-between; align-items: center; gap: 16px; color: var(--muted); }

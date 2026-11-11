@@ -181,7 +181,7 @@ form.addEventListener("submit", (event) => {
   }
 
   const message = [
-    "Olá, Master Narrações! Gostaria de consultar um orçamento para narração.",
+    "Olá, Master! Gostaria de consultar um orçamento para narração.",
     "",
     "Organização: " + organizer,
     "Formato: " + fields.get("formato"),
