@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0c0e">
+  <meta name="description" content="Master Narrações. Narração ao vivo de Fórmula 1 virtual, automobilismo virtual e outros games. Consulte valores para a sua transmissão.">
+  <title>Master Narrações</title>
+  <link rel="icon" href="./bandeira.svg" type="image/svg+xml">
+  <link rel="preload" href="./media/barlow-800i.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./style.css?v=apresentacao">
+  <script src="./site.js?v=apresentacao" defer></script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+  <svg class="symbols" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-flag" viewBox="0 0 28 24"><path d="M7 2h7l-2 6H5zm7 0h7l-2 6h-7zm7 0h7l-2 6h-7zM5 8h7l-2 6H3zm7 0h7l-2 6h-7zm7 0h7l-2 6h-7zM3 14h7l-2 6H1zm7 0h7l-2 6H8z" fill="currentColor" opacity=".25"/><path d="M7 2h7l-2 6H5zm14 0h7l-2 6h-7zM12 8h7l-2 6h-7zM3 14h7l-2 6H1z" fill="currentColor"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M6 18 18 6M8 6h10v10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 4.8v14.4a.8.8 0 0 0 1.2.7l11-7.2a.8.8 0 0 0 0-1.4l-11-7.2A.8.8 0 0 0 8 4.8Z" fill="currentColor"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M6 3v4m12-4v4M3 9h18M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm3 8h2m4 0h2m-8 4h2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24"><path d="M7 7h10a4 4 0 0 1 3.9 3.2l1 5.1a2 2 0 0 1-3.5 1.7l-2.2-2.5H7.8L5.6 17A2 2 0 0 1 2 15.3l1.1-5.1A4 4 0 0 1 7 7zm1 2.5v4m-2-2h4m5.5-1h.01m2 2h.01" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <header class="site-header" id="topo">
+    <div class="wrap header-inner">
+      <a class="brand" href="#topo" aria-label="Master Narrações, início">
+        <svg aria-hidden="true"><use href="#i-flag"/></svg>
+        <span>MASTER <small>NARRAÇÕES</small></span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a><a href="#videos">Vídeos</a><a href="#servicos">Serviços</a>
+      </nav>
+      <a class="button button-header" href="#orcamento">Pedir orçamento <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="./media/grid-misto.webp" alt="" fetchpriority="high" width="1920" height="807">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="kicker"><span class="dot"></span> Narração de automobilismo virtual</p>
+          <h1 id="hero-title">A voz do<br><em>grid virtual.</em></h1>
+          <p class="hero-lead">Narração ao vivo de Fórmula 1 virtual, corridas de AV e outros jogos. Da largada à bandeirada, acompanho a disputa e conto a história da prova.</p>
+          <div class="actions">
+            <a class="button button-primary" href="#orcamento">Pedir orçamento <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a class="button button-muted" href="#videos"><svg aria-hidden="true"><use href="#i-play"/></svg> Ver vídeos</a>
+          </div>
+        </div>
+        <div class="hero-signature" aria-hidden="true"><span></span> MASTER NARRAÇÕES <b>///</b></div>
+      </div>
+    </section>
+
+    <div class="strip">
+      <ul class="wrap strip-inner" aria-label="Destaques do Master Narrações">
+        <li><strong>80+</strong><span>Corridas narradas</span></li>
+        <li><strong>Full HD</strong><span>Transmissões em 1080p - FULL HD</span></li>
+        <li><strong>Preço acessível</strong><span>Orçamento por evento</span></li>
+      </ul>
+    </div>
+
+    <section class="about" id="sobre" aria-labelledby="sobre-title">
+      <div class="wrap about-inner">
+        <div class="about-video">
+          <video id="about-reel" aria-label="Apresentação do Master Narrações" controls controlslist="nodownload" playsinline preload="none" poster="./media/apresentacao-capa.webp" width="1920" height="928">
+            <source src="./media/apresentacao.mp4" type="video/mp4">
+          </video>
+          <button class="about-play" id="about-play" type="button" aria-label="Reproduzir apresentação do Master Narrações" hidden>
+            <span class="reel-play"><svg aria-hidden="true"><use href="#i-play"/></svg></span>
+          </button>
+        </div>
+        <div class="about-copy">
+          <p class="kicker section-kicker"><span>01</span> Sobre mim</p>
+          <h2 id="sobre-title">Quem está no microfone.</h2>
+          <p>Sou narrador de automobilismo virtual, com foco em Fórmula 1 virtual. Na corrida, acompanho as disputas, explico as estratégias e ajudo quem está assistindo a entender o que está em jogo a cada volta.</p>
+          <p>Também narro outros games. Combinamos o formato da transmissão de acordo com o jogo e o seu evento.</p>
+          <div class="league-history">
+            <h3>Ligas que já narrei</h3>
+            <ul class="league-list" role="list">
+              <li>F1 BR Virtual Races</li>
+              <li>Sprint Races</li>
+              <li>Liga GPX</li>
+              <li>Liga <Pegasus class=""></Pegasus></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="videos" aria-labelledby="videos-title">
+      <div class="section-head">
+        <div>
+          <p class="kicker section-kicker"><span>02</span> Portfólio</p>
+          <h2 id="videos-title">Por dentro da live.</h2>
+        </div>
+        <p>Escolha uma corrida narrada ou uma vinheta para assistir.</p>
+      </div>
+      <div class="gallery">
+        <div class="player">
+          <div class="video-stage" id="reel-stage">
+            <button class="reel-preview" id="reel-preview" type="button" aria-label="Reproduzir GP de Monza">
+              <img src="https://i.ytimg.com/vi/iY-s9M0iQ68/maxresdefault.jpg" width="1280" height="720" loading="lazy" alt="">
+              <span class="reel-play"><svg aria-hidden="true"><use href="#i-play"/></svg></span>
+            </button>
+            <video id="reel" controls controlslist="nodownload" playsinline preload="none" width="1280" height="720" hidden></video>
+          </div>
+          <div class="player-caption">
+            <div><p class="label">Selecionado</p><h3 class="player-title" id="reel-title" aria-live="polite">GP de Monza</h3></div>
+            <a id="reel-file" href="https://www.youtube.com/watch?v=iY-s9M0iQ68&amp;t=2460s" target="_blank" rel="noopener">Ver no YouTube <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <p id="reel-status" class="reel-status" role="status"></p>
+        </div>
+        <ol class="playlist" aria-label="Escolha um vídeo">
+          <li><button class="clip" type="button" aria-pressed="true" data-youtube="iY-s9M0iQ68" data-start="2460">
+            <img src="https://i.ytimg.com/vi/iY-s9M0iQ68/maxresdefault.jpg" alt="" width="104" height="59" loading="lazy">
+            <span><span class="clip-kind">01 / Mais visto</span><strong>GP de Monza</strong></span>
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+          </button></li>
+          <li><button class="clip" type="button" aria-pressed="false" data-youtube="b2DpGhuZQzk">
+            <img src="https://i.ytimg.com/vi/b2DpGhuZQzk/maxresdefault.jpg" alt="" width="104" height="59" loading="lazy">
+            <span><span class="clip-kind">02 / Mais recente</span><strong>Abertura da 3ª temporada</strong></span>
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+          </button></li>
+          <li><button class="clip" type="button" aria-pressed="false" data-file="abertura.mp4">
+            <img src="./media/abertura.webp" alt="" width="104" height="59" loading="lazy">
+            <span><span class="clip-kind">03 / Abertura</span><strong>Abertura da live</strong></span>
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+          </button></li>
+          <li><button class="clip" type="button" aria-pressed="false" data-file="carregamento.mp4">
+            <img src="./media/carregamento.webp" alt="" width="104" height="59" loading="lazy">
+            <span><span class="clip-kind">04 / Pré-corrida</span><strong>Carregando corrida</strong></span>
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+          </button></li>
+          <li><button class="clip" type="button" aria-pressed="false" data-file="transicao.webm">
+            <img src="./media/transicao.webp" alt="" width="104" height="59" loading="lazy">
+            <span><span class="clip-kind">05 / Transição</span><strong>Transição de cenas</strong></span>
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+          </button></li>
+          <li><button class="clip" type="button" aria-pressed="false" data-file="encerramento.mp4">
+            <img src="./media/encerramento.webp" alt="" width="104" height="59" loading="lazy">
+            <span><span class="clip-kind">06 / Encerramento</span><strong>Fim da live</strong></span>
+            <svg aria-hidden="true"><use href="#i-play"/></svg>
+          </button></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section wrap" id="servicos" aria-labelledby="servicos-title">
+      <div class="section-head">
+        <div>
+          <p class="kicker section-kicker"><span>03</span> Serviços</p>
+          <h2 id="servicos-title">Narração para seu evento.</h2>
+        </div>
+        <p>O valor é negociado de acordo com o formato, a duração e o número de corridas ou partidas.</p>
+      </div>
+      <div class="services">
+        <article class="service">
+          <svg aria-hidden="true"><use href="#i-flag"/></svg>
+          <h3>Corrida avulsa</h3>
+          <p>Narração de uma etapa de Fórmula 1 virtual ou de outra categoria do automobilismo virtual.</p>
+          <a href="#orcamento" data-format="Corrida avulsa">Consultar valor <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+        <article class="service">
+          <svg aria-hidden="true"><use href="#i-calendar"/></svg>
+          <h3>Ligas e campeonatos</h3>
+          <p>Cobertura de várias etapas, combinada com a organização conforme o calendário da liga.</p>
+          <a href="#orcamento" data-format="Liga ou campeonato">Consultar valor <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+        <article class="service">
+          <svg aria-hidden="true"><use href="#i-game"/></svg>
+          <h3>Outros jogos</h3>
+          <p>Narração ao vivo de partidas e eventos de games, com formato definido para a transmissão.</p>
+          <a href="#orcamento" data-format="Evento de outro jogo">Consultar valor <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote" id="orcamento" aria-labelledby="quote-title">
+      <div class="wrap quote-inner">
+        <div>
+          <p class="kicker section-kicker"><span>04</span> Contratação</p>
+          <h2 id="quote-title">Vamos falar sobre<br>a sua transmissão?</h2>
+          <p>Preencha os dados do evento. A mensagem abre no WhatsApp, pronta para você revisar e enviar.</p>
+        </div>
+        <form id="quote-form" class="quote-form">
+          <div class="form-grid">
+            <label>Seu nome ou organização<input name="organizador" autocomplete="organization" required maxlength="100" placeholder="Nome da liga, equipe ou canal"></label>
+            <label>Tipo de evento<select name="formato" required>
+              <option value="" selected disabled>Selecione o formato</option>
+              <option>Corrida avulsa</option><option>Liga ou campeonato</option><option>Evento de outro jogo</option>
+            </select></label>
+            <label>Jogo ou simulador<input name="jogo" required maxlength="100" placeholder="Ex. F1 25"></label>
+            <label>Data e horário <span>(se definidos)</span><input name="agenda" maxlength="100" placeholder="Ex. sábado, 20h de Brasília"></label>
+          </div>
+          <label>Detalhes <span>(opcional)</span><textarea name="detalhes" rows="3" maxlength="1500" placeholder="Duração prevista, número de etapas ou partidas e canal da transmissão"></textarea></label>
+          <button class="button button-primary" type="submit">Continuar no WhatsApp <svg aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="#topo" aria-label="Master Narrações, início">
+        <svg aria-hidden="true"><use href="#i-flag"/></svg>
+        <span>MASTER <small>NARRAÇÕES</small></span>
+      </a>
+      <p>Narração de automobilismo virtual e games</p>
+      <a class="top-link" href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
